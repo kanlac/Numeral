@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301003CA1FFCEA6700663CAD /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 301003C91FFCEA6700663CAD /* fonts */; };
+		301003D01FFCEB3800663CAD /* Open Sans italic copy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 301003CF1FFCEB3800663CAD /* Open Sans italic copy.ttf */; };
+		301003D21FFCEB4900663CAD /* Open Sans 800 copy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 301003D11FFCEB4900663CAD /* Open Sans 800 copy.ttf */; };
+		301003D41FFCEB5500663CAD /* Open Sans 300 copy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 301003D31FFCEB5500663CAD /* Open Sans 300 copy.ttf */; };
+		306FC5952000D27F003C8929 /* Assets 22-23-02-030 22-25-53-195.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306FC5942000D27F003C8929 /* Assets 22-23-02-030 22-25-53-195.xcassets */; };
+		30BE01BC1FFD2AEF0093C04D /* OctalKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE01BB1FFD2AEF0093C04D /* OctalKeyboardViewController.swift */; };
+		30BE01BE1FFD2D530093C04D /* HexadecimalKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE01BD1FFD2D530093C04D /* HexadecimalKeyboardViewController.swift */; };
+		30C763561FF5132E001296A8 /* DecimalKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C763551FF5132E001296A8 /* DecimalKeyboardViewController.swift */; };
+		30C763581FF513B4001296A8 /* KeyDict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C763571FF513B3001296A8 /* KeyDict.swift */; };
+		30EE01261FE2499300EBF2A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EE01251FE2499300EBF2A2 /* AppDelegate.swift */; };
+		30EE012B1FE2499300EBF2A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EE01291FE2499300EBF2A2 /* Main.storyboard */; };
+		30EE01301FE2499300EBF2A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EE012E1FE2499300EBF2A2 /* LaunchScreen.storyboard */; };
+		30EE013B1FE2499300EBF2A2 /* Number_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EE013A1FE2499300EBF2A2 /* Number_ConverterTests.swift */; };
+		30EE01461FE2499300EBF2A2 /* Number_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EE01451FE2499300EBF2A2 /* Number_ConverterUITests.swift */; };
+		30EE01561FE2549400EBF2A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EE01551FE2549400EBF2A2 /* MainViewController.swift */; };
+		30EE01581FE257DF00EBF2A2 /* BinaryKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EE01571FE257DF00EBF2A2 /* BinaryKeyboardViewController.swift */; };
+		30EE015A1FE258EE00EBF2A2 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EE01591FE258EE00EBF2A2 /* Number.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30EE01371FE2499300EBF2A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30EE011A1FE2499300EBF2A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30EE01211FE2499300EBF2A2;
+			remoteInfo = "Number Converter";
+		};
+		30EE01421FE2499300EBF2A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30EE011A1FE2499300EBF2A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30EE01211FE2499300EBF2A2;
+			remoteInfo = "Number Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		301003C91FFCEA6700663CAD /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		301003CF1FFCEB3800663CAD /* Open Sans italic copy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans italic copy.ttf"; path = "Numeral/fonts/Open Sans italic copy.ttf"; sourceTree = "<group>"; };
+		301003D11FFCEB4900663CAD /* Open Sans 800 copy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans 800 copy.ttf"; path = "Numeral/fonts/Open Sans 800 copy.ttf"; sourceTree = "<group>"; };
+		301003D31FFCEB5500663CAD /* Open Sans 300 copy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open Sans 300 copy.ttf"; path = "Numeral/fonts/Open Sans 300 copy.ttf"; sourceTree = "<group>"; };
+		306FC5942000D27F003C8929 /* Assets 22-23-02-030 22-25-53-195.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets 22-23-02-030 22-25-53-195.xcassets"; path = "../Assets 22-23-02-030 22-25-53-195.xcassets"; sourceTree = "<group>"; };
+		30BE01BB1FFD2AEF0093C04D /* OctalKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OctalKeyboardViewController.swift; sourceTree = "<group>"; };
+		30BE01BD1FFD2D530093C04D /* HexadecimalKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexadecimalKeyboardViewController.swift; sourceTree = "<group>"; };
+		30C763551FF5132E001296A8 /* DecimalKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalKeyboardViewController.swift; sourceTree = "<group>"; };
+		30C763571FF513B3001296A8 /* KeyDict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyDict.swift; sourceTree = "<group>"; };
+		30EE01221FE2499300EBF2A2 /* Numeral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numeral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EE01251FE2499300EBF2A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30EE012A1FE2499300EBF2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30EE012F1FE2499300EBF2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30EE01311FE2499300EBF2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EE01361FE2499300EBF2A2 /* NumeralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumeralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EE013A1FE2499300EBF2A2 /* Number_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Number_ConverterTests.swift; path = "../Numeral Tests/Number_ConverterTests.swift"; sourceTree = "<group>"; };
+		30EE013C1FE2499300EBF2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Numeral Tests/Info.plist"; sourceTree = "<group>"; };
+		30EE01411FE2499300EBF2A2 /* NumeralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumeralUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EE01451FE2499300EBF2A2 /* Number_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_ConverterUITests.swift; sourceTree = "<group>"; };
+		30EE01471FE2499300EBF2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30EE01551FE2549400EBF2A2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		30EE01571FE257DF00EBF2A2 /* BinaryKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryKeyboardViewController.swift; sourceTree = "<group>"; };
+		30EE01591FE258EE00EBF2A2 /* Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30EE011F1FE2499300EBF2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EE01331FE2499300EBF2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EE013E1FE2499300EBF2A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30EE01191FE2499200EBF2A2 = {
+			isa = PBXGroup;
+			children = (
+				301003D31FFCEB5500663CAD /* Open Sans 300 copy.ttf */,
+				301003D11FFCEB4900663CAD /* Open Sans 800 copy.ttf */,
+				301003CF1FFCEB3800663CAD /* Open Sans italic copy.ttf */,
+				30EE01241FE2499300EBF2A2 /* Numeral */,
+				30EE01391FE2499300EBF2A2 /* Numeral Tests */,
+				30EE01441FE2499300EBF2A2 /* NumeralUITests */,
+				30EE01231FE2499300EBF2A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30EE01231FE2499300EBF2A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30EE01221FE2499300EBF2A2 /* Numeral.app */,
+				30EE01361FE2499300EBF2A2 /* NumeralTests.xctest */,
+				30EE01411FE2499300EBF2A2 /* NumeralUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30EE01241FE2499300EBF2A2 /* Numeral */ = {
+			isa = PBXGroup;
+			children = (
+				30EE01291FE2499300EBF2A2 /* Main.storyboard */,
+				306FC5942000D27F003C8929 /* Assets 22-23-02-030 22-25-53-195.xcassets */,
+				30EE01551FE2549400EBF2A2 /* MainViewController.swift */,
+				30EE01571FE257DF00EBF2A2 /* BinaryKeyboardViewController.swift */,
+				30BE01BB1FFD2AEF0093C04D /* OctalKeyboardViewController.swift */,
+				30C763551FF5132E001296A8 /* DecimalKeyboardViewController.swift */,
+				30BE01BD1FFD2D530093C04D /* HexadecimalKeyboardViewController.swift */,
+				30C763571FF513B3001296A8 /* KeyDict.swift */,
+				30EE01591FE258EE00EBF2A2 /* Number.swift */,
+				30EE012E1FE2499300EBF2A2 /* LaunchScreen.storyboard */,
+				30EE01251FE2499300EBF2A2 /* AppDelegate.swift */,
+				30EE01311FE2499300EBF2A2 /* Info.plist */,
+				301003C91FFCEA6700663CAD /* fonts */,
+			);
+			path = Numeral;
+			sourceTree = "<group>";
+		};
+		30EE01391FE2499300EBF2A2 /* Numeral Tests */ = {
+			isa = PBXGroup;
+			children = (
+				30EE013A1FE2499300EBF2A2 /* Number_ConverterTests.swift */,
+				30EE013C1FE2499300EBF2A2 /* Info.plist */,
+			);
+			path = "Numeral Tests";
+			sourceTree = "<group>";
+		};
+		30EE01441FE2499300EBF2A2 /* NumeralUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30EE01451FE2499300EBF2A2 /* Number_ConverterUITests.swift */,
+				30EE01471FE2499300EBF2A2 /* Info.plist */,
+			);
+			path = NumeralUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30EE01211FE2499300EBF2A2 /* Numeral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EE014A1FE2499300EBF2A2 /* Build configuration list for PBXNativeTarget "Numeral" */;
+			buildPhases = (
+				30EE011E1FE2499300EBF2A2 /* Sources */,
+				30EE011F1FE2499300EBF2A2 /* Frameworks */,
+				30EE01201FE2499300EBF2A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Numeral;
+			productName = "Number Converter";
+			productReference = 30EE01221FE2499300EBF2A2 /* Numeral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30EE01351FE2499300EBF2A2 /* NumeralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EE014D1FE2499300EBF2A2 /* Build configuration list for PBXNativeTarget "NumeralTests" */;
+			buildPhases = (
+				30EE01321FE2499300EBF2A2 /* Sources */,
+				30EE01331FE2499300EBF2A2 /* Frameworks */,
+				30EE01341FE2499300EBF2A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30EE01381FE2499300EBF2A2 /* PBXTargetDependency */,
+			);
+			name = NumeralTests;
+			productName = "Number ConverterTests";
+			productReference = 30EE01361FE2499300EBF2A2 /* NumeralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30EE01401FE2499300EBF2A2 /* NumeralUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EE01501FE2499300EBF2A2 /* Build configuration list for PBXNativeTarget "NumeralUITests" */;
+			buildPhases = (
+				30EE013D1FE2499300EBF2A2 /* Sources */,
+				30EE013E1FE2499300EBF2A2 /* Frameworks */,
+				30EE013F1FE2499300EBF2A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30EE01431FE2499300EBF2A2 /* PBXTargetDependency */,
+			);
+			name = NumeralUITests;
+			productName = "Number ConverterUITests";
+			productReference = 30EE01411FE2499300EBF2A2 /* NumeralUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30EE011A1FE2499300EBF2A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Dean;
+				TargetAttributes = {
+					30EE01211FE2499300EBF2A2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					30EE01351FE2499300EBF2A2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30EE01211FE2499300EBF2A2;
+					};
+					30EE01401FE2499300EBF2A2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30EE01211FE2499300EBF2A2;
+					};
+				};
+			};
+			buildConfigurationList = 30EE011D1FE2499300EBF2A2 /* Build configuration list for PBXProject "Numeral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30EE01191FE2499200EBF2A2;
+			productRefGroup = 30EE01231FE2499300EBF2A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30EE01211FE2499300EBF2A2 /* Numeral */,
+				30EE01351FE2499300EBF2A2 /* NumeralTests */,
+				30EE01401FE2499300EBF2A2 /* NumeralUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30EE01201FE2499300EBF2A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EE01301FE2499300EBF2A2 /* LaunchScreen.storyboard in Resources */,
+				30EE012B1FE2499300EBF2A2 /* Main.storyboard in Resources */,
+				301003CA1FFCEA6700663CAD /* fonts in Resources */,
+				301003D01FFCEB3800663CAD /* Open Sans italic copy.ttf in Resources */,
+				306FC5952000D27F003C8929 /* Assets 22-23-02-030 22-25-53-195.xcassets in Resources */,
+				301003D41FFCEB5500663CAD /* Open Sans 300 copy.ttf in Resources */,
+				301003D21FFCEB4900663CAD /* Open Sans 800 copy.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EE01341FE2499300EBF2A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EE013F1FE2499300EBF2A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30EE011E1FE2499300EBF2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EE015A1FE258EE00EBF2A2 /* Number.swift in Sources */,
+				30EE01261FE2499300EBF2A2 /* AppDelegate.swift in Sources */,
+				30BE01BC1FFD2AEF0093C04D /* OctalKeyboardViewController.swift in Sources */,
+				30C763561FF5132E001296A8 /* DecimalKeyboardViewController.swift in Sources */,
+				30EE01561FE2549400EBF2A2 /* MainViewController.swift in Sources */,
+				30EE01581FE257DF00EBF2A2 /* BinaryKeyboardViewController.swift in Sources */,
+				30C763581FF513B4001296A8 /* KeyDict.swift in Sources */,
+				30BE01BE1FFD2D530093C04D /* HexadecimalKeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EE01321FE2499300EBF2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EE013B1FE2499300EBF2A2 /* Number_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30EE013D1FE2499300EBF2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EE01461FE2499300EBF2A2 /* Number_ConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30EE01381FE2499300EBF2A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30EE01211FE2499300EBF2A2 /* Numeral */;
+			targetProxy = 30EE01371FE2499300EBF2A2 /* PBXContainerItemProxy */;
+		};
+		30EE01431FE2499300EBF2A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30EE01211FE2499300EBF2A2 /* Numeral */;
+			targetProxy = 30EE01421FE2499300EBF2A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30EE01291FE2499300EBF2A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EE012A1FE2499300EBF2A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30EE012E1FE2499300EBF2A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30EE012F1FE2499300EBF2A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30EE01481FE2499300EBF2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30EE01491FE2499300EBF2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30EE014B1FE2499300EBF2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Numeral/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dean. Numeral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		30EE014C1FE2499300EBF2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Numeral/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dean. Numeral";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		30EE014E1FE2499300EBF2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Number ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dean.Number-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numeral.app/Numeral";
+			};
+			name = Debug;
+		};
+		30EE014F1FE2499300EBF2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Number ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dean.Number-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numeral.app/Numeral";
+			};
+			name = Release;
+		};
+		30EE01511FE2499300EBF2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Number ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dean.Number-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Number Converter";
+			};
+			name = Debug;
+		};
+		30EE01521FE2499300EBF2A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Number ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dean.Number-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Number Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30EE011D1FE2499300EBF2A2 /* Build configuration list for PBXProject "Numeral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EE01481FE2499300EBF2A2 /* Debug */,
+				30EE01491FE2499300EBF2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EE014A1FE2499300EBF2A2 /* Build configuration list for PBXNativeTarget "Numeral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EE014B1FE2499300EBF2A2 /* Debug */,
+				30EE014C1FE2499300EBF2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EE014D1FE2499300EBF2A2 /* Build configuration list for PBXNativeTarget "NumeralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EE014E1FE2499300EBF2A2 /* Debug */,
+				30EE014F1FE2499300EBF2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30EE01501FE2499300EBF2A2 /* Build configuration list for PBXNativeTarget "NumeralUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30EE01511FE2499300EBF2A2 /* Debug */,
+				30EE01521FE2499300EBF2A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30EE011A1FE2499300EBF2A2 /* Project object */;
+}
